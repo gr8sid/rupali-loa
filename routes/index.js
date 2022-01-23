@@ -24,4 +24,10 @@ router.get('/challenges', function(req, res, next) {
 router.get('/shop', function(req, res, next) {
   res.render('index', { title: 'Shop' });
 });
+router.get('/faqs', function(req, res, next) {
+  res.render('index', { title: 'FAQs' });
+});
+router.get('/contact', function(req, res, next) {
+  res.render('contact', { title: 'Contact' }); // rotues /contact to contact.ejs and sends title = Contact as a parameter
+});
 module.exports = router;
