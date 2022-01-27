@@ -1,98 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LoaWithRupali <%= title %></title>
-    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="@fortawesome/fontawesome-free/css/fontawesome.min.css">
-    <link rel="stylesheet" href="Content/app.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LoaWithRupali <%= title %>
+  </title>
+  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="@fortawesome/fontawesome-free/css/fontawesome.min.css">
+  <link rel="stylesheet" href="Content/app.css">
 </head>
 
 <body>
+  <video autoplay muted loop id="myVideo">
+    <source src="Assets/uniclip.mp4" type="video/mp4">
+  </video>
+  <div class="content" style="background: rgba(0, 0, 0, 0.35);top: 7%; bottom:auto; width: 50%; left: 25%; right: 50%;">
+    <div class="jumbotron">
+      <h1 class="display-4">Law of Attraction with Rupali!</h1>
+      <p class="lead">In the beginning, there was neither existence, nor nonexistence.</p>
+      <hr class="my-4">
+      <p>ALL this World was unmanifested energy.</p>
+      <!--<p class="lead">
+        <a class="btn btn-primary btn-lg my-4" href="#" role="button">Learn more</a>
+      </p>-->
+    </div>
+    <div class="content my-4"
+      style="background: rgba(0, 0, 0, 0.35); bottom:auto; width: 50%; left: 25%; right: 50%; height: 50%;">
+      <div>
+        <img src="Assets/ver2.jpg" alt="BEST"
+          style="margin: auto; display: block; max-width: 100%; height: auto; width:auto\9; left:15%; right: 10%; opacity: 0.6; border-radius: 50%; position: absolute;">
+      </div>
+      <div>
+        <img src="Assets/never.jpg" alt="BEST" style="margin: auto; display: block; max-width: 30%; max-height: 45%; position: absolute; top: 0px; right: 0px;opacity: 0.6;" />
+      </div>
+      <div>
+        <img src="Assets/goal.PNG" alt="BEST" style="margin: auto; display: block;; max-width: 30%; max-height: 45%; width:auto\9; position: absolute; top: 0px; left: 0px;opacity: 0.6;" />
+      </div>
+      <div>
+        <img src="Assets/focus.jpg" alt="BEST"
+          style="margin: auto; display: block; max-width: 30%; max-height: 45%; width:auto\9; position: absolute; bottom: 0px; left: 0px;opacity: 0.6; " />
+      </div>
+      <div>
+        <img src="Assets/dream.PNG" alt="BEST" style="margin: auto; display: block; max-width: 30%; max-height: 45%; width:auto\9; position: absolute; bottom: 0px; right: 0px;opacity: 0.6;" />
+      </div>
+    </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">"LOGO HERE"</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/"><i class ="fa fa-thin fa-lg fa-home"></i> Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="/podcasts"><i class="fas fa-lg fa-podcast"></i> Podcasts</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="/courses"><i class="fas fa-lg fa-university"></i> Courses</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/books"><i class="fas fa-lg fa-book-open"></i> Books</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="/challenges"><i class="fas fa-lg fa-running"></i> Challenges</a>
-              </li>
-              
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 <i class="fas fa-dolly-flatbed"></i> Shop
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="/shop">Action</a></li>
-                  <li><a class="dropdown-item" href="/shop/anotheraction">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="/shop/someother">Something else here</a></li>
-                </ul>
-              </li>
-              <!-- <li class="nav-item">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">"LOGO HERE"</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/"><i class="fa fa-thin fa-lg fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="/podcasts"><i class="fas fa-lg fa-podcast"></i>
+                Podcasts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="/courses"><i class="fas fa-lg fa-university"></i>
+                Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/books"><i class="fas fa-lg fa-book-open"></i> Books</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="/challenges"><i class="fas fa-lg fa-running"></i>
+                Challenges</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fas fa-dolly-flatbed"></i> Shop
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/shop">Action</a></li>
+                <li><a class="dropdown-item" href="/shop/anotheraction">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="/shop/someother">Something else here</a></li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
                 <a class="nav-link disabled">Disabled</a>
               </li> -->
-            </ul>
-            <!-- <form class="d-flex">
+          </ul>
+          <!-- <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form> -->
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="/faqs"><i class="far fa-question-circle"></i> FAQs</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="/contact"><i class="far fa-address-card"></i> Contact Us </a>
-                </li>
-         </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="/faqs"><i class="far fa-question-circle"></i> FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="/contact"><i class="far fa-address-card"></i> Contact Us
+              </a>
+            </li>
+          </ul>
         </div>
-        </div>
-       
-            
-     
-      </nav>
-
-<main class="container">
-    <div class="jumbotron">
-        <h1 class="display-4">Law of Attraction with Rupali!</h1>
-        <p class="lead">In the beginning, there was neither existence, nor nonexistence.</p>
-        <hr class="my-4">
-        <p>ALL this World was unmanifested energy.</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p>
       </div>
-</main>
-      
-<footer>
-      <nav class="navbar fixed-bottom navbar-light bg-light">
-        <div class="container-fluid">
-          <h4>&copy; Copyright 2022</h4>
+    </nav>
+
+    <main class="container">
+      <!-- The video -->
+
+
+
+      <!--<div class="jumbotron">
+      <h1 class="display-4">Law of Attraction with Rupali!</h1>
+      <p class="lead">In the beginning, there was neither existence, nor nonexistence.</p>
+      <hr class="my-4">
+      <p>ALL this World was unmanifested energy.</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </p>
+    </div>-->
+    </main>
+
+    <footer>
+      <nav class="navbar fixed-bottom navbar-dark bg-dark">
+        <div class="container-fluid" style="left: 200px;">
+          <h4 style="color: grey; text-align: left;">&copy; Copyright 2022</h4>
         </div>
       </nav>
-</footer>
-      <script src="jquery/dist/jquery.min.js"></script>
-      <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-      <script src="@fortawesome/fontawesome-free/js/all.js"></script>
-      <script src="Scripts/app.js"></script>
+    </footer>
+    <script src="Scripts/clip.js"></script>
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="@fortawesome/fontawesome-free/js/all.js"></script>
+    <script src="Scripts/app.js"></script>
 </body>
+
 </html>
